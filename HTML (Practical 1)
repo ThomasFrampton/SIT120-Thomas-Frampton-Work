@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Practical 1</h1>
+<p>This HTML Page is being created for the purposes of our first Practical in <b>SIT120</b>, one of our units at <i>Deakin University</i>. As part of our practical, we are required to perform the following tasks.</p>
+<ul>
+  <li>HTML Code</li>
+  <li>CSS Code</li>
+  <li>Javascript Code</li>
+  <li>Create a to-do list utlising Vue, a Javascript program.</li>
+</body>
+</html>
