@@ -1,0 +1,9 @@
+function changeStyle(){
+        var element = document.getElementById("List");
+        element.style.fontFamily = "verdana";
+    }
+
+function changeStyle2(){
+        var element = document.getElementById("List");
+        element.style.fontFamily = "wingdings";
+    }
