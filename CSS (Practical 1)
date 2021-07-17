@@ -1,0 +1,22 @@
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+li{color: maroon;
+  font-family: wingdings;
+  margin-bottom: 10px;  
+}
+
+b{
+  color: red;
+}
