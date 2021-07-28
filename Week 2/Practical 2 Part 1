@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Practical_2_CSS.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <div class="topnav">
+  <a class="active" href="Practical_2_Part_1.html">First Page</a>
+  <a href="Practical_2_Part_2.html">Second Page</a>
+</div>
+</head>
+<body>
+  <h1>Practical 2</h1>
+<p>This HTML Page is being created for the purposes of our second Practical in <b>SIT120</b>, one of our units at <i>Deakin University</i>.</p>
+  
+<p>During this practical task, we will be using our CSS to create a website that displays neatly across all platforms (Tablet, Phone, Computer etc.).</p>
+ <img src="https://www.w3schools.com/html/img_notepad.png" alt="Some HTML Code">
+<p> The above image is sourced from w3schools.</p>
+</body>
+</html>
