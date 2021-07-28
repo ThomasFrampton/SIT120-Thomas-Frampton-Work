@@ -1,0 +1,69 @@
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+li{
+  color: maroon;
+  margin-bottom: 10px;  
+}
+
+b{
+  color: red;
+}
+
+.topnav {
+  font-family: verdana;
+  overflow: hidden;
+  background-color: #777;
+}
+
+.topnav a {
+  float: left;
+  color: #e19da2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #72AA91;
+  color: #612dd2;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+leftside {
+  float: left;
+  width: 47%;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+rightside {
+  float: right;
+  width: 45%;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 10px;
+}
