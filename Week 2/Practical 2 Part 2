@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link rel="stylesheet" href="Practical_2_CSS.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <div class="topnav">
+  <a href="Practical_2_Part_1.html">First Page</a>
+  <a class="active" href="Practical_2_Part_2.html">Second Page</a>
+</div>
+</head>
+<body>
+  <leftside>
+    <img src="https://www.wikihow.com/images/thumb/d/d2/Float-on-Your-Back-Step-4-Version-2.jpg/aid44661-v4-728px-Float-on-Your-Back-Step-4-Version-2.jpg.webp" alt="Floating">
+    <p>As described, this text will be floating independently on the left. This image is sourced from wikihow.</p>
+  </leftside>
+  
+  <rightside>
+  <p>This is the second page. It was created for the purpose of transport, but serves no other purpose bar exhibiting that I know how to float this text beside my image. If I was incapable of doing this, this would have much poorer formatting.</p>
+  </rightside>
+</body>
+</html>
