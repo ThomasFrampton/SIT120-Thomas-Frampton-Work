@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Link External Files -->
+    <link rel="stylesheet" href="Website_CSS.css">
+    <script src="Website_JavaScript.js"></script>
+    <!-- Adapt to the width of screen. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Defines a div to contain all top-navigation items.-->
+    <div class="topnav">
+      <!-- Defines the two hyperlinks to other pages, and the active page.-->
+      <a href="index.html">Home</a>
+      <a class="active">Search</a>
+      <a href="Contact_Us_Page.html">Contact Us</a>
+      <!-- Creates the circle shape containing text 'PFP' and the Welcome text-->
+      <right><div class="circle">
+        PFP
+      </div></right>
+      <righttext>Welcome, USER_NAME</righttext>
+    </div>
+  </head>
+  <body>
+    <!-- Title of the page -->
+    <h1>Used Car Search!</h1>
+    <!-- Groups together all items used in the Dummy Search. -->
+    <div class= Search id=Search>
+      <!-- Creates a fillable text box, with an additional side label -->
+      <label for="carname">Car Model Name:</label>
+      <input type="text" id="carname" name="carname">
+      <br><br>
+      <!-- Create a button that runs Javascript function 'Search()' when clicked. -->
+      <button type="button" class="Fake" onclick="Search()">Search</button>
+    </div>
+    <!-- Groups together all result shown when Dummy Search is conducted. -->
+    <div class=SearchResult id=Result>
+      <!-- Creates two paragraphs of text -->
+      <p> Your Search turned up no results. :(</p>
+      <p class=SearchResult2>(This search was fake, as there are currently no cars in the database. Clicking the button triggered a Javascript function hiding the previous elements and showing these ones)</p>
+      <br><br>
+      <!-- Creates a button that will run Javascript function 'Return()' when clicked. -->
+      <button type="button" class="Fake" onclick="Return()">Return to Search</button>
+    </div>
+  </body>
+</html>
