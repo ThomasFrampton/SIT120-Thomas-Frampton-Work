@@ -1,0 +1,12 @@
+document.getElementById("lucky").innerHTML = "Today's Lucky Number is " + Math.floor(Math.random() * 101);
+
+function getMilli(){
+  const milli = new Date();
+  
+ document.getElementById("counter").innerHTML = "Your millisecond count is: " + milli.getMilliseconds() + " milliseconds!";
+}
+
+function getSecond(){
+  const second = new Date();
+  document.getElementById("counter").innerHTML = "Currently, " + second.getSeconds() + " seconds have passed!";
+}
