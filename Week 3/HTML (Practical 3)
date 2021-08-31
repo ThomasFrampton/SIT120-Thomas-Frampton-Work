@@ -1,0 +1,15 @@
+<h2>Practical 3 - Javascript</h2>
+
+<h3 id="lucky"></h3>
+
+<p> Below are two buttons to display the current millisecond and second, respectively. Please click on them to see how they operate.><p>
+
+<button type="button"
+onclick= getMilli()>
+Millisecond Count</button>
+
+<button type="button"
+onclick= getSecond()>
+Second Count.</button>
+
+<p id="counter">Click the above buttons to display a second counter!</p>
