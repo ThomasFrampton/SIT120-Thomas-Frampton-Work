@@ -1,0 +1,31 @@
+    <form id="demo">
+      <div id="div">
+      <p>
+        <input v-model="msg">
+        <br/>
+        {{msg}}
+      </p>
+      </div>
+</form>
+      
+<div id="v-model-multiple-checkboxes" class="demo">
+  <input type="checkbox" id="dave" value="dave" v-model="checkedNames" />
+  <label for="dave">Dave</label>
+  <input type="checkbox" id="david" value="david" v-model="checkedNames" />
+  <label for="david">David</label>
+  <input type="checkbox" id="davey" value="Davey" v-model="checkedNames" />
+  <label for="davey">Davey</label>
+  <input type="checkbox" id="Davi Lama" value="Davi Lama" v-model="checkedNames" />
+  <label for="Davi Lama">Davi Lama</label>
+  <br />
+  <span>Checked names: {{ checkedNames }}</span>
+</div>
+
+<div id="v-model-select-dynamic" class="demo">
+  <select v-model="selected">
+    <option v-for="option in options" v-bind:value="option.value">
+      {{ option.text }}
+    </option>
+  </select>
+  <span>Selected: {{ selected }}</span>
+</div>
