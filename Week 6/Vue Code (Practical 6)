@@ -1,0 +1,28 @@
+Vue.createApp({
+  data() {
+    return {
+      msg : 'hi'
+    }
+  }  
+}).mount('div')
+
+Vue.createApp({
+  data() {
+    return {
+      checkedNames: []
+    }
+  }
+}).mount('#v-model-multiple-checkboxes')
+
+Vue.createApp({
+  data() {
+    return {
+      selected: 'A',
+      options: [
+        { text: 'Option A', value: 'A' },
+        { text: 'Option B', value: '2' },
+        { text: 'Option C', value: 'iii' }
+      ]
+    }
+  }
+}).mount('#v-model-select-dynamic')
