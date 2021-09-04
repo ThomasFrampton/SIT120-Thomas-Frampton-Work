@@ -1,0 +1,8 @@
+#app
+
+#app2
+
+<div id="app3">
+  <child :text="message"></child>
+</div>
+</div>
