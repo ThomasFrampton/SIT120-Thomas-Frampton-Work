@@ -1,0 +1,19 @@
+<div id="app">
+    {{ message }}
+  </div>
+
+<div id="app-4">
+  <ol>
+    <b> Using V-For example </b>
+    <li v-for="item in list">
+      {{ item.text }}
+    </li>
+  </ol>
+</div>
+    
+        <div id="app-3">
+  <span v-if="!isHidden">{{message}}</span>
+          <input v-model="message" v-else>
+          <button v-on:click="isHidden = !isHidden" v-if = "isHidden">Save Message</button>
+<button v-on:click="isHidden = !isHidden" v-else>Edit Message</button>
+</div>
