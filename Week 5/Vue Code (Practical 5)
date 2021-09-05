@@ -1,0 +1,26 @@
+var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Practical Task Five'
+      }
+    })
+
+var app4 = new Vue({
+  el: '#app-4',
+  data: {
+    list: [
+      { text: 'Item 1' },
+      { text: 'Item 2' },
+      { text: 'Item 3' },
+      { text: 'Item 4' },
+    ]
+  }
+})
+
+var app3 = new Vue({
+  el: '#app-3',
+  data: {
+    message: 'Hello Vue!',
+    isHidden: true
+  }
+})
